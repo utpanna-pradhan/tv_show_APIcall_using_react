@@ -1,0 +1,92 @@
+.container2{
+    width: 1000px;
+        height: 360px;
+        border: 2px solid rgb(164, 153, 153);
+        margin-left: 270px;
+        margin-left: 127px;
+        margin-top: 50px;
+        color: white;
+        padding: 25px;
+}
+.head{
+    color: white;
+        padding-left: 320px;
+        padding-top: 30px;
+        font-size: 24px;
+    
+}
+.Sumbtn{
+    width: 100px;
+        height: 50px;
+        color: white;
+        font-size: 20px;
+        margin-left: 82px;
+        margin-top: 65px;
+        font-weight: 600;
+    
+}
+@media screen and (max-width:700px) {
+    
+        .container2 {
+                width: 281px;
+                    height: 470px;
+                   
+                 
+                    margin-left: 12px;
+                    margin-top: 54px;
+                   font-size:12px;
+                    padding: 25px;
+            }
+             .head {
+                            padding-left: 17px;
+                                padding-top: 30px;
+                                font-size: 14px;
+                            }
+            
+             
+            
+             .Sumbtn {
+                        width: 97px;
+                            height: 37px;
+                            
+                            font-size: 12px;
+                            margin-left: 52px;
+                            margin-top: 25px;
+                           
+                        
+            
+             }
+    
+}
+@media screen and (max-width:900px) {
+    .container2 {
+            width: 656px;
+                height: 431px;
+                margin-left: 160px;
+                margin-top: 54px;
+                margin-left: 55px;
+                padding: 25px;
+            
+        }
+    
+        .head {
+            padding-left: 202px;
+                padding-top: 74px;
+                font-size: 22px;
+        }
+    
+    
+    
+        .Sumbtn {
+            width: 131px;
+                height: 52px;
+                font-size: 20px;
+                font-size: 22px;
+                
+                margin-left: 64px;
+            }
+    
+    
+        
+
+}
