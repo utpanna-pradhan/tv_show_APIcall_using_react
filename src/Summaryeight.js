@@ -3,35 +3,33 @@ import Axios from 'axios';
 import { useState } from 'react';
 import './Summaryone.css';
 
-
-function Summarytwo(props) {
-  const [name2,setName2] =useState("");
- const [sum2,setSum2] =useState("");
- const getSummary2 =() =>{
+function Summaryeight(props) {
+const [name8,setName8] =useState("");
+ const [sum8,setSum8] =useState("");
+ const getSummary8 =() =>{
       Axios.get("https://api.tvmaze.com/search/shows?q=all").then((response)=>{
          
-         setSum2(response.data[1].show.summary); })
+         setSum8(response.data[7].show.summary); })
     }
-      const getname2 =() =>{
+  const getname8 =() =>{
       Axios.get("https://api.tvmaze.com/search/shows?q=all").then((response)=>{
-         setName2( response.data[1].show.name); 
+         setName8( response.data[7].show.name); 
           })
     }
-     const getmsg =()=>{
+   const getmsg =()=>{
       alert("Ticket booked");
     }
   return (
     <div className='container2'>
       <h3 className='head'>To know the summary -:<br></br>
-     <button onClick={getSummary2} className='Sumbtn'>click me</button></h3> {sum2}
+     <button onClick={getSummary8} className='Sumbtn'>click me</button></h3> {sum8}
    
-
-      <div className="form_container">
+    <div className="form_container">
     
       <h3 className='form_head'>Book a Ticket</h3>
       
     <form >
-        <h2 onMouseOver={getname2} style={{color:"white",fontSize:"23px",marginLeft:"100px",marginBottom:"23px"}}> Name of the show  -{name2}</h2>
+        <h2 onMouseOver={getname8} style={{color:"white",fontSize:"23px",marginLeft:"100px",marginBottom:"23px"}}> Name of the show  -{name8}</h2>
         <label className='form_label'>First name:</label>
         <input type='text' placeholder='enter your first name' className='form_input '/><br></br><br></br>
          <label className='form_label' >Last name:</label>
@@ -55,4 +53,4 @@ function Summarytwo(props) {
   )
 }
 
-export default Summarytwo
+export default Summaryeight

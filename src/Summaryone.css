@@ -1,17 +1,18 @@
 .container2{
     width: 1000px;
-        height: 360px;
+        height: 1000px;
         border: 2px solid rgb(164, 153, 153);
-        margin-left: 270px;
-        margin-left: 127px;
+      
+        margin-left: 87px;
         margin-top: 50px;
         color: white;
         padding: 25px;
+        margin-bottom: 45px;
 }
 .head{
     color: white;
         padding-left: 320px;
-        padding-top: 30px;
+        padding-top: 20px;
         font-size: 24px;
     
 }
@@ -21,72 +22,885 @@
         color: white;
         font-size: 20px;
         margin-left: 82px;
-        margin-top: 65px;
+        margin-top: 35px;
         font-weight: 600;
+        border-radius: 10px;
+            border: 2px solid white;
     
 }
-@media screen and (max-width:700px) {
-    
-        .container2 {
-                width: 281px;
-                    height: 470px;
-                   
-                 
-                    margin-left: 12px;
-                    margin-top: 54px;
-                   font-size:12px;
-                    padding: 25px;
-            }
-             .head {
-                            padding-left: 17px;
-                                padding-top: 30px;
-                                font-size: 14px;
-                            }
-            
-             
-            
-             .Sumbtn {
-                        width: 97px;
-                            height: 37px;
-                            
-                            font-size: 12px;
-                            margin-left: 52px;
-                            margin-top: 25px;
-                           
-                        
-            
-             }
+.form_container{
+        margin-left: 143px;
+            margin-top: 50px;
+            border: 1px solid white;
+            height: 657px;
+            width: 653px;
+        
+}
+.form_head{
+        margin-left: 229px;
+            margin-bottom: 32px;
+            text-decoration: underline;
+            font-size: 30px;
     
 }
-@media screen and (max-width:900px) {
+form h2{
+    color: "white";
+     font-size:"23px";
+      margin-left:"100px";
+       margin-bottom:"23px";
+}
+.form_label{
+    font-size: 20px;
+     margin-right: 20px;
+        margin-left: 149px;
+        
+    
+}
+.form_input{
+color: white;
+    font-size: 18px;
+    border-radius: 10px;
+        border: 2px solid white;
+padding-left: 15px;
+}
+.form_submit{
+    width: 200px;
+    height: 50px;
+    color: white;
+   border-radius: 13px;
+   border: 2px solid white;
+margin-left: 217px;
+margin-top: 10px;
+   
+}
+
+@media screen and (max-width:786px) and (min-width: 393px) {
+
+
     .container2 {
-            width: 656px;
-                height: 431px;
-                margin-left: 160px;
-                margin-top: 54px;
-                margin-left: 55px;
-                padding: 25px;
-            
+        width: 370px;
+            height: 1500px;
+            /* border: 2px solid rgb(164, 153, 153); */
+            margin-left: -92px;
+            margin-left: 0px;
+            color: white;
+            margin-bottom: 45px;
+        
         }
     
         .head {
-            padding-left: 202px;
-                padding-top: 74px;
-                font-size: 22px;
+            color: white;
+                padding-left: 71px;
+                padding-top: 15px;
+                font-size: 20px;
+            
+    
         }
     
-    
-    
         .Sumbtn {
-            width: 131px;
-                height: 52px;
-                font-size: 20px;
-                font-size: 22px;
-                
-                margin-left: 64px;
+        width: 77px;
+            height: 36px;
+            
+            font-size: 15px;
+            margin-left: 37px;
+    
+        }
+    
+        .form_container {
+            margin-left: -11px;
+               
+                height: 1298px;
+                width: 335px;
             }
     
     
+        .form_head {
+                margin-left: 50px;
+                    margin-top: 5px;
+                
+                    font-size: 20px;
+    
+        }
+                form h2{
+                    margin-left:23px
+                }
+    
+        .form_label {
+            font-size: 15px;
+            margin-right: 20px;
+            margin-left: 13px;
+    
+    
+        }
+    
+        .form_input {
+      
+            font-size: 13px;
+           margin-left:15px;
+            padding-left: 15px;
+        }
+    
+        .form_submit {
+            margin-left: 74px;
+            
+    
+        }
+
+}
+@media screen and (max-width:667px) and (min-width: 375px) {
+
+
+    .container2 {
+        width: 347px;
+        height: 1500px;
+       
+        margin-left: -92px;
+        margin-left: 0px;
+        color: white;
+        margin-bottom: 45px;
+
+    }
+
+    .head {
+        color: white;
+        padding-left: 71px;
+        padding-top: 15px;
+        font-size: 20px;
+
+
+    }
+
+    .Sumbtn {
+        width: 77px;
+        height: 36px;
+
+        font-size: 15px;
+        margin-left: 37px;
+
+    }
+
+    .form_container {
+        margin-left: -11px;
+
+        height: 1298px;
+        width: 314px;
+    }
+
+
+    .form_head {
+        margin-left: 50px;
+        margin-top: 5px;
+
+        font-size: 20px;
+
+    }
+
+    form h2 {
+        margin-left: 23px
+    }
+
+    .form_label {
+        font-size: 15px;
+        margin-right: 20px;
+        margin-left: 13px;
+
+
+    }
+
+    .form_input {
+
+        font-size: 13px;
+        margin-left: 15px;
+        padding-left: 15px;
+    }
+
+    .form_submit {
+        margin-left: 74px;
+
+
+    }
+
+}
+@media screen and (max-width:740px) and (min-width: 360px) {
+
+
+    .container2 {
+        width: 340px;
+        height: 1500px;
+
+        margin-left: -92px;
+        margin-left: 0px;
+        color: white;
+        margin-bottom: 45px;
+
+    }
+
+    .head {
+        color: white;
+        padding-left: 71px;
+        padding-top: 15px;
+        font-size: 20px;
+
+
+    }
+
+    .Sumbtn {
+        width: 77px;
+        height: 36px;
+
+        font-size: 15px;
+        margin-left: 37px;
+
+    }
+
+    .form_container {
+        margin-left: -11px;
+
+        height: 1298px;
+        width: 314px;
+    }
+
+
+    .form_head {
+        margin-left: 50px;
+        margin-top: 5px;
+
+        font-size: 20px;
+
+    }
+
+    form h2 {
+        margin-left: 23px
+    }
+
+    .form_label {
+        font-size: 15px;
+        margin-right: 20px;
+        margin-left: 13px;
+
+
+    }
+
+    .form_input {
+
+        font-size: 13px;
+        margin-left: 15px;
+        padding-left: 15px;
+    }
+
+    .form_submit {
+        margin-left: 74px;
+
+
+    }
+
+}
+@media screen and (max-width:1180px) and (min-width: 820px) {
+
+
+    .container2 {
+        width: 700px;
+        height: 1600px;
+
+        margin-left: -92px;
+        margin-left: 0px;
+        color: white;
+        margin-bottom: 45px;
+
+    }
+
+    .head {
+        color: white;
+        padding-left: 71px;
+        padding-top: 15px;
+        font-size: 20px;
+
+
+    }
+
+    .Sumbtn {
+        width: 77px;
+        height: 36px;
+
+        font-size: 15px;
+        margin-left: 37px;
+
+    }
+
+    .form_container {
+        margin-left: 14px;
+
+        height: 1298px;
+        width: 616px;
+    }
+
+
+    .form_head {
+        margin-left: 207px;
+            margin-top: 5px;
+            font-size: 25px;
+           
         
+    }
+
+    form h2 {
+        margin-left: 23px
+    }
+
+    .form_label {
+        font-size: 15px;
+        margin-right: 20px;
+        margin-left: 75px;
+
+
+    }
+
+    .form_input {
+
+        font-size: 13px;
+        margin-left: 15px;
+        padding-left: 15px;
+    }
+
+    .form_submit {
+        margin-left: 74px;
+
+
+    }
+
+}
+@media screen and (max-width:1024px) and (min-width: 768px) {
+
+
+    .container2 {
+        width: 700px;
+        height: 1600px;
+
+        margin-left: -92px;
+        margin-left: 0px;
+        color: white;
+        margin-bottom: 45px;
+
+    }
+
+    .head {
+        color: white;
+        padding-left: 71px;
+        padding-top: 15px;
+        font-size: 20px;
+
+
+    }
+
+    .Sumbtn {
+        width: 77px;
+        height: 36px;
+
+        font-size: 15px;
+        margin-left: 37px;
+
+    }
+
+    .form_container {
+        margin-left: 14px;
+
+        height: 1298px;
+        width: 616px;
+    }
+
+
+    .form_head {
+        margin-left: 207px;
+        margin-top: 5px;
+        font-size: 25px;
+
+
+    }
+
+    form h2 {
+        margin-left: 23px
+    }
+
+    .form_label {
+        font-size: 15px;
+        margin-right: 20px;
+        margin-left: 75px;
+
+
+    }
+
+    .form_input {
+
+        font-size: 13px;
+        margin-left: 15px;
+        padding-left: 15px;
+    }
+
+    .form_submit {
+        margin-left: 74px;
+
+
+    }
+
+}
+@media screen and (max-width:1368px) and (min-width: 912px) {
+
+
+    .container2 {
+            width: 761px;
+                height: 1802px;
+               
+                margin-left: -24px;
+               
+    }
+
+    .head {
+   
+        padding-left: 240px;
+        padding-top: 15px;
+        font-size: 25px;
+
+
+    }
+
+    .Sumbtn {
+    width: 104px;
+        height: 54px;
+        font-size: 20px;
+        margin-left: 75px;
+
+    }
+
+    .form_container {
+        margin-left: 61px;
+
+        height: 1298px;
+        width: 616px;
+    }
+
+
+    .form_head {
+        margin-left: 207px;
+        margin-top: 5px;
+        font-size: 25px;
+
+
+    }
+
+    form h2 {
+        margin-left: 23px;
+            font-size: 20px;
+            margin-bottom: 25px;
+    }
+
+    .form_label {
+        font-size: 15px;
+        margin-right: 20px;
+        margin-left: 75px;
+
+
+    }
+
+    .form_input {
+
+        font-size: 13px;
+        margin-left: 15px;
+        padding-left: 15px;
+    }
+
+    .form_submit {
+        margin-left: 74px;
+
+
+    }
+
+}
+
+@media screen and (max-width:720px) and (min-width: 540px) {
+
+
+    .container2 {
+        width: 515px;
+        height: 1500px;
+
+        margin-left: -92px;
+        margin-left: 0px;
+        color: white;
+        margin-bottom: 45px;
+
+    }
+
+    .head {
+        color: white;
+        padding-left: 71px;
+        padding-top: 15px;
+        font-size: 20px;
+
+
+    }
+
+    .Sumbtn {
+        width: 77px;
+        height: 36px;
+
+        font-size: 15px;
+        margin-left: 37px;
+
+    }
+
+    .form_container {
+        margin-left: 14px;
+
+        height: 1298px;
+        width: 453px;
+    }
+
+
+    .form_head {
+        margin-left: 118px;
+        margin-top: 5px;
+        font-size: 25px;
+
+
+    }
+
+    form h2 {
+        margin-left: 23px
+    }
+
+    .form_label {
+        font-size: 15px;
+        margin-right: 20px;
+        margin-left: 75px;
+
+
+    }
+
+    .form_input {
+
+        font-size: 13px;
+        margin-left: 15px;
+        padding-left: 15px;
+    }
+
+    .form_submit {
+        margin-left: 74px;
+
+
+    }
+
+}
+
+@media screen and (max-width:653px) and (min-width: 280px) {
+
+
+    .container2 {
+        width: 258px;
+        height: 1500px;
+
+        margin-left: -92px;
+        margin-left: 0px;
+        color: white;
+        margin-bottom: 45px;
+
+    }
+
+    .head {
+        color: white;
+        padding-left: 24px;
+        padding-top: 15px;
+        font-size: 12px;
+
+
+    }
+
+    .Sumbtn {
+        width: 67px;
+        height: 26px;
+
+        font-size: 12px;
+        margin-left: 37px;
+
+    }
+
+    .form_container {
+        margin-left: -13px;
+
+        height: 1298px;
+        width: 233px;
+    }
+
+
+    .form_head {
+        margin-left: 32px;
+        margin-top: 5px;
+        font-size: 12px;
+
+
+    }
+
+    form h2 {
+        margin-left: 2px
+    }
+
+    .form_label {
+        font-size: 15px;
+        margin-right: 20px;
+        margin-left: 12px;
+
+
+    }
+    
+    .form_input {
+
+        font-size: 13px;
+        margin-left: 15px;
+        padding-left: 15px;
+            width: 169px;
+    }
+
+    .form_submit {
+        width: 126px;
+        height: 34px;
+        font-size: 12px;
+        margin-left: 20px;
+
+
+    }
+
+}
+@media screen and (max-width:914px) and (min-width: 412px) {
+
+
+    .container2 {
+        width: 382px;
+        height: 1500px;
+
+        margin-left: -92px;
+        margin-left: 0px;
+        color: white;
+        margin-bottom: 45px;
+
+    }
+
+    .head {
+        color: white;
+        padding-left: 36px;
+        padding-top: 15px;
+        font-size: 18px;
+
+
+    }
+
+    .Sumbtn {
+        width: 87px;
+        height: 36px;
+
+        font-size: 18px;
+        margin-left: 37px;
+
+    }
+
+    .form_container {
+        margin-left: -13px;
+
+        height: 1298px;
+        width: 355px;
+    }
+
+
+    .form_head {
+        margin-left: 32px;
+        margin-top: 5px;
+        font-size: 22px;
+
+
+    }
+
+    form h2 {
+        margin-left: 2px
+    }
+
+    .form_label {
+        font-size: 15px;
+        margin-right: 20px;
+        margin-left: 12px;
+
+
+    }
+
+    .form_input {
+
+        font-size: 13px;
+        margin-left: 15px;
+        padding-left: 15px;
+        width: 169px;
+    }
+
+    .form_submit {
+        width: 126px;
+        height: 34px;
+        font-size: 12px;
+        margin-left: 20px;
+
+
+    }
+
+}
+
+@media screen and (max-width:1280px) and (min-width: 800px) {
+
+
+    .container2 {
+        width: 1052px;
+        height: 1500px;
+
+        margin-left: -92px;
+        margin-left: 0px;
+        color: white;
+        margin-bottom: 45px;
+
+    }
+
+    .head {
+        color: white;
+        padding-left: 343px;
+        padding-top: 15px;
+        font-size: 28px;
+
+
+    }
+
+    .Sumbtn {
+        width: 137px;
+        height: 56px;
+
+        font-size: 28px;
+        margin-left: 37px;
+
+    }
+
+    .form_container {
+        margin-left: 147px;
+            height: 1298px;
+            width: 700px;
+    }
+
+
+    .form_head {
+        margin-left: 219px;
+        margin-top: 15px;
+        font-size: 32px;
+
+
+    }
+
+    form h2 {
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+    .form_label {
+        font-size: 20px;
+        margin-right: 20px;
+        margin-left: 42px;
+
+
+    }
+
+    .form_input {
+
+        font-size: 20px;
+        margin-left: 15px;
+        padding-left: 15px;
+        width: 269px;
+    }
+
+    .form_submit {
+        width: 200px;
+        height: 54px;
+        font-size: 22px;
+        margin-left: 200px;
+
+
+    }
+
+}
+@media screen and (max-width:823px) and (min-width: 411px) {
+
+
+    .container2 {
+        width: 392px;
+        height: 1500px;
+
+        margin-left: -1px;
+       
+        color: white;
+        margin-bottom: 45px;
+
+    }
+
+    .head {
+        color: white;
+        padding-left: 33px;
+        padding-top: 18px;
+        font-size: 18px;
+
+
+    }
+
+    .Sumbtn {
+        width: 107px;
+        height: 46px;
+
+        font-size: 18px;
+        margin-left: 37px;
+
+    }
+
+    .form_container {
+        margin-left: -13px;
+        height: 1298px;
+        width: 368px;
+    }
+
+
+    .form_head {
+        margin-left: 68px;
+        margin-top: 15px;
+        font-size: 22px;
+
+
+    }
+
+    form h2 {
+        margin-left: 20px;
+        font-size: 18px;
+    }
+
+    .form_label {
+        font-size: 17px;
+        margin-right: 20px;
+        margin-left: 42px;
+
+
+    }
+
+    .form_input {
+
+        font-size: 17px;
+        margin-left: 15px;
+        padding-left: 15px;
+        width: 169px;
+    }
+
+    .form_submit {
+        width: 150px;
+        height: 44px;
+        font-size: 18px;
+        margin-left: 50px;
+
+
+    }
 
 }

@@ -3,35 +3,33 @@ import Axios from 'axios';
 import { useState } from 'react';
 import './Summaryone.css';
 
-
-function Summarytwo(props) {
-  const [name2,setName2] =useState("");
- const [sum2,setSum2] =useState("");
- const getSummary2 =() =>{
+function Summarynine(props) {
+  const [name9,setName9] =useState("");
+ const [sum9,setSum9] =useState("");
+ const getSummary9 =() =>{
       Axios.get("https://api.tvmaze.com/search/shows?q=all").then((response)=>{
          
-         setSum2(response.data[1].show.summary); })
+         setSum9(response.data[8].show.summary); })
     }
-      const getname2 =() =>{
+  const getname9 =() =>{
       Axios.get("https://api.tvmaze.com/search/shows?q=all").then((response)=>{
-         setName2( response.data[1].show.name); 
+         setName9( response.data[8].show.name); 
           })
     }
-     const getmsg =()=>{
+   const getmsg =()=>{
       alert("Ticket booked");
     }
   return (
     <div className='container2'>
       <h3 className='head'>To know the summary -:<br></br>
-     <button onClick={getSummary2} className='Sumbtn'>click me</button></h3> {sum2}
-   
-
-      <div className="form_container">
+     <button onClick={getSummary9} className='Sumbtn'>click me</button></h3> {sum9}
+    
+    <div className="form_container">
     
       <h3 className='form_head'>Book a Ticket</h3>
       
     <form >
-        <h2 onMouseOver={getname2} style={{color:"white",fontSize:"23px",marginLeft:"100px",marginBottom:"23px"}}> Name of the show  -{name2}</h2>
+        <h2 onMouseOver={getname9} style={{color:"white",fontSize:"23px",marginLeft:"100px",marginBottom:"23px"}}> Name of the show  -{name9}</h2>
         <label className='form_label'>First name:</label>
         <input type='text' placeholder='enter your first name' className='form_input '/><br></br><br></br>
          <label className='form_label' >Last name:</label>
@@ -51,8 +49,10 @@ function Summarytwo(props) {
 
     </div> 
     
+
+
     </div>
   )
 }
 
-export default Summarytwo
+export default Summarynine

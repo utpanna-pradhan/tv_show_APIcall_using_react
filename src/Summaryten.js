@@ -3,35 +3,33 @@ import Axios from 'axios';
 import { useState } from 'react';
 import './Summaryone.css';
 
-
-function Summarytwo(props) {
-  const [name2,setName2] =useState("");
- const [sum2,setSum2] =useState("");
- const getSummary2 =() =>{
+function Summaryten(props) {
+  const [name10,setName10] =useState("");
+ const [sum10,setSum10] =useState("");
+ const getSummary10 =() =>{
       Axios.get("https://api.tvmaze.com/search/shows?q=all").then((response)=>{
          
-         setSum2(response.data[1].show.summary); })
+         setSum10(response.data[9].show.summary); })
     }
-      const getname2 =() =>{
+  const getname10 =() =>{
       Axios.get("https://api.tvmaze.com/search/shows?q=all").then((response)=>{
-         setName2( response.data[1].show.name); 
+         setName10( response.data[9].show.name); 
           })
     }
-     const getmsg =()=>{
+   const getmsg =()=>{
       alert("Ticket booked");
     }
   return (
     <div className='container2'>
       <h3 className='head'>To know the summary -:<br></br>
-     <button onClick={getSummary2} className='Sumbtn'>click me</button></h3> {sum2}
+     <button onClick={getSummary10} className='Sumbtn'>click me</button></h3> {sum10}
    
-
-      <div className="form_container">
+     <div className="form_container">
     
       <h3 className='form_head'>Book a Ticket</h3>
       
     <form >
-        <h2 onMouseOver={getname2} style={{color:"white",fontSize:"23px",marginLeft:"100px",marginBottom:"23px"}}> Name of the show  -{name2}</h2>
+        <h2 onMouseOver={getname10} style={{color:"white",fontSize:"23px",marginLeft:"100px",marginBottom:"23px"}}> Name of the show  -{name10}</h2>
         <label className='form_label'>First name:</label>
         <input type='text' placeholder='enter your first name' className='form_input '/><br></br><br></br>
          <label className='form_label' >Last name:</label>
@@ -50,9 +48,9 @@ function Summarytwo(props) {
     </form>
 
     </div> 
-    
+
     </div>
   )
 }
 
-export default Summarytwo
+export default Summaryten
